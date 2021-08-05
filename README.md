@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/aleaibcev37gtgg7?svg=true)](https://ci.appveyor.com/project/Alexandra-Matyukhina/patterns-delivery)
