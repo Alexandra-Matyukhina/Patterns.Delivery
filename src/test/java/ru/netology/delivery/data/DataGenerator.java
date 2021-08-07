@@ -55,13 +55,13 @@ public class DataGenerator {
 
     public static String generateName(String locale) {
         Faker faker = new Faker(new Locale(locale));
-        return faker.name().lastName().replace("ё","е")+ " "+
-        faker.name().firstName().replace("ё", "е");
+        return faker.name().fullName().replace("ё","е");
+//        faker.name().firstName().replace("ё", "е");
     }
 
     public static String generatePhone(String locale) {
         Faker faker = new Faker(new Locale(locale));
-        return faker.phoneNumber().subscriberNumber(11);
+        return faker.phoneNumber().subscriberNumber(9);
     }
 
     public static class Registration {
